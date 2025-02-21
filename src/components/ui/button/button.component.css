@@ -1,0 +1,11 @@
+button {
+  background-color: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+  overflow: hidden !important;
+  outline: none !important;
+  padding: 15px 45px;
+  margin: auto;
+  font-size: 100%;
+  /* font-family: "MeineCustomFont", sans-serif; */
+}

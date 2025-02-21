@@ -1,13 +1,14 @@
 {
-  "name": "mein-angular-projekt",
+  "name": "frontend",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:mein-angular-projekt": "node dist/mein-angular-projekt/server/server.mjs"
+    "serve:ssr:frontend": "node dist/frontend/server/server.mjs",
+    "dev": "lite-server"
   },
   "private": true,
   "dependencies": {
@@ -21,9 +22,15 @@
     "@angular/platform-server": "^19.1.0",
     "@angular/router": "^19.1.0",
     "@angular/ssr": "^19.1.6",
+    "@nestjs/common": "^11.0.9",
+    "@nestjs/core": "^11.0.9",
+    "@nestjs/typeorm": "^11.0.0",
     "express": "^4.18.2",
+    "motion": "^12.4.3",
+    "pg": "^8.13.3",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
+    "typeorm": "^0.3.20",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
@@ -39,6 +46,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "lite-server": "^2.6.1",
     "typescript": "~5.7.2"
   }
 }

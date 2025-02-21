@@ -1,0 +1,8 @@
+#middle {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: second baseline;
+    justify-content: center;
+    width: 100%;
+}

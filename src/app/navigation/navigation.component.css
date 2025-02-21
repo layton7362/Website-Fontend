@@ -1,0 +1,18 @@
+#navigation-root {
+    position: relative;
+    left: 4%;
+    top: 10%;
+    width: 100px;
+    background-color: rgba(214, 170, 170, 0);
+    min-height: auto;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    z-index: 1;
+    margin-left: 100px;
+    right: 0px;
+    border-style: solid;
+    border-right: 10px;
+    
+}

@@ -1,0 +1,9 @@
+#content-root {
+    min-height: 800px;
+    min-width: 1600px;
+    border-color: black;
+    border-style: solid;
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
